@@ -1,7 +1,7 @@
 package com.TryCloud.Tests.Login;
 
 import com.TryCloud.Pages.LoginPage;
-import com.TryCloud.Tests.TestBase.TestBase;
+import com.TryCloud.TestBase.TestBase;
 import com.Utilities.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;

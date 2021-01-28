@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {
+
     public WebDriver driver;
 
     public TestBase() {
@@ -16,10 +17,11 @@ public abstract class TestBase {
 
     @BeforeClass
     public void setup(){
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.get("http://qa.trycloud.net/index.php/login?clear=1");
     }
+
     @AfterClass
     public void tearDowns(){
         driver.close();

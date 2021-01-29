@@ -1,0 +1,17 @@
+
+
+
+
+                            ####################################
+
+                            #0- Create a config.properties file
+                            #1- Create a driver util
+                            #2- Create a Thread.sleep util
+                            #3- Create Login Util
+                            #4- Create TakeScreenShot Util
+                            #5- Locate all the elements in page
+                            #6- Define them to specific page class
+                            #7- Start to create test cases
+                            #8- Create a TestNG.xml for suite
+
+                            ###################################

@@ -23,4 +23,24 @@ public class PhotosPage {
     WebElement sharedAlbums;
     @FindBy(xpath = "//span[@title='Tagged photos']")
     WebElement taggedPhotos;
+
+    public WebElement getYourPhotos(){
+        return yourPhotos;
+    }
+
+    public WebElement getFavorites(){
+        return favorites;
+    }
+
+    public WebElement getYourAlbums(){
+        return yourAlbums;
+    }
+
+    public WebElement getSharedAlbums(){
+        return sharedAlbums;
+    }
+
+    public WebElement getTaggedPhotos(){
+        return taggedPhotos;
+    }
 }

@@ -15,7 +15,6 @@ public class ConfigReader {
             properties.load(file);
             file.close();
         }catch (IOException e){
-
         }
     }
     public static String getProperty(String key){

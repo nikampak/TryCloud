@@ -19,7 +19,6 @@ public class LogIn extends TestBase {
         //Verify Users Land Home Page
         String expectedTitle = "Files - Trycloud - QA";
         String actualTitle = driver.getTitle();
-
         Assert.assertEquals(expectedTitle, actualTitle);
     }
 }

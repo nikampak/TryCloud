@@ -11,6 +11,7 @@ public class WebDriverUtilities {
 
     public static WebDriver getDriver(String browser) {
         if (driver == null) {
+
             if (browser.equalsIgnoreCase("chrome")) {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
@@ -20,7 +21,8 @@ public class WebDriverUtilities {
                 driver = new FirefoxDriver();
                 return driver;
             }
-        }return driver;
+        }
+        return driver;
     }
 
 }

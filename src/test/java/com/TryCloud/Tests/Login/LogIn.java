@@ -12,7 +12,7 @@ public class LogIn extends TestBase {
     public void Login() {
         LoginPage log = new LoginPage(driver);
 
-        log.username().sendKeys(Data.user1);
+        log.username().sendKeys(Data.user3);
         log.password().sendKeys(Data.password);
         log.loginButton().click();
 

@@ -9,5 +9,6 @@ public class ActivityPage {
     public ActivityPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
+
     }
 }

@@ -22,4 +22,23 @@ public class ContactsPage {
     @FindBy(xpath = "//button[@class='primary']")
     WebElement createContact;
 
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    public WebElement getNewContract() {
+        return newContract;
+    }
+
+    public WebElement getNewGroup() {
+        return newGroup;
+    }
+
+    public WebElement getPlusIconAction() {
+        return plusIconAction;
+    }
+
+    public WebElement getCreateContact() {
+        return createContact;
+    }
 }

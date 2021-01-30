@@ -29,4 +29,9 @@ public class FilePage {
     WebElement settings;
     @FindBy(css = "a[class='button new']")
     WebElement addNewFileButton;
+    @FindBy(css = "label[for=select_all_files]")
+    WebElement selectAllFiles;
+    public WebElement setAddNewFileButton(){
+        return addNewFileButton;
+    }
 }

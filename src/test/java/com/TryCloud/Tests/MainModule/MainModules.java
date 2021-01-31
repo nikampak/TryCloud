@@ -1,4 +1,4 @@
-package com.TryCloud.Tests.TC1;
+package com.TryCloud.Tests.MainModule;
 
 import com.TryCloud.Pages.HomePage;
 import com.TryCloud.Tests.Base.TestBase;

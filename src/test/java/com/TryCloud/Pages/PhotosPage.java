@@ -18,6 +18,10 @@ public class PhotosPage extends PageBase {
     @FindBy(xpath = "//span[@title='Tagged photos']")
     WebElement taggedPhotos;
 
+    public PhotosPage(WebDriver driver) {
+        super(driver);
+    }
+
 
     public WebElement getYourPhotos(){
         return yourPhotos;

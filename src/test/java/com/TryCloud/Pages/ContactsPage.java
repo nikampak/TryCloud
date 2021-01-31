@@ -6,6 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ContactsPage extends PageBase{
+    public ContactsPage(WebDriver driver) {
+        super(driver);
+    }
 
 
     @FindBy(css = "button#new-contact-button")
@@ -16,6 +19,8 @@ public class ContactsPage extends PageBase{
     WebElement plusIconAction;
     @FindBy(xpath = "//button[@class='primary']")
     WebElement createContact;
+
+
 
 
     public WebElement getNewContract() {

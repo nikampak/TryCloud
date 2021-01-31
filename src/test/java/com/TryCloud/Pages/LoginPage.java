@@ -14,6 +14,10 @@ public class LoginPage extends PageBase {
     @FindBy(id = "submit-form")
     WebElement loginButton;
 
+    public LoginPage(WebDriver driver) {
+        super(driver);
+    }
+
     public WebElement username(){
         return userName;
     }

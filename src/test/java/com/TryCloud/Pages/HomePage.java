@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class HomePage extends PageBase {
 
     @FindBy(xpath = "(//a[@href='/index.php/apps/files/'])[1]")
     WebElement files;
@@ -21,6 +21,10 @@ public class HomePage {
     WebElement calendar;
     @FindBy(xpath = "(//a[@href='/index.php/apps/notes/'])[1]")
     WebElement notes;
+
+    public HomePage(WebDriver driver) {
+        super(driver);
+    }
 
     public WebElement files(){
         return files;

@@ -25,6 +25,11 @@ public class FilePage extends PageBase {
     WebElement addNewFileButton;
     @FindBy(css = "label[for=select_all_files]")
     WebElement selectAllFiles;
+
+    public FilePage(WebDriver driver) {
+        super(driver);
+    }
+
     public WebElement setAddNewFileButton(){
         return addNewFileButton;
     }

@@ -5,4 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DeckPage extends PageBase {
 
+    public DeckPage(WebDriver driver) {
+        super(driver);
+    }
 }

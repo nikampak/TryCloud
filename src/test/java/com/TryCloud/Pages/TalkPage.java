@@ -6,4 +6,7 @@ import sun.jvm.hotspot.debugger.Page;
 
 public class TalkPage extends PageBase {
 
+    public TalkPage(WebDriver driver) {
+        super(driver);
+    }
 }

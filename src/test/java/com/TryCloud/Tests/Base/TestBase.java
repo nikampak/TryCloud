@@ -22,7 +22,7 @@ public abstract class TestBase {
     public void setup(){
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.get(Data.url);
+        driver.get("https://www.youtube.com/");
         Login();
     }
 

@@ -11,7 +11,14 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class TakeScreenshot {
+public class BrowserUtilities {
+
+    public static void sleep(int howLongSecond) {
+        try {
+            Thread.sleep(howLongSecond * 1000);
+        } catch (InterruptedException e) {
+        }
+    }
 
     public static void getElementScreenshot(WebElement element) {
         LocalDateTime dateTime = LocalDateTime.now();

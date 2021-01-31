@@ -8,4 +8,5 @@ public class Data {
     public final static String user4 = ConfigReader.getProperty("User4");
     public final static String password = ConfigReader.getProperty("password");
     public final static String url = ConfigReader.getProperty("url");
+    public final static String browser = ConfigReader.getProperty("browser");
 }

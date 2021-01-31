@@ -13,7 +13,7 @@ public class MainModules extends TestBase {
 
     @Test(description = "verify users access to the main modules")
     public void verifyMainModules(){
-        HomePage hP = new HomePage(driver);
+        HomePage hP = new HomePage();
         hP.files().click();
         Assert.assertEquals(driver.getTitle(), "Files - Trycloud - QA");
         hP.photos().click();

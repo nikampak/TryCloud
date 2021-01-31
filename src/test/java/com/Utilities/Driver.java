@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class WebDriverUtilities {
-    public static WebDriver driver = null;
+public class Driver {
+    private static WebDriver driver = null;
 
     public static WebDriver getDriver(String browser) {
         if (driver == null) {

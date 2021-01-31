@@ -5,13 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PhotosPage {
-    WebDriver driver;
-
-    public PhotosPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
+public class PhotosPage extends PageBase {
 
     @FindBy(xpath = "//span[@title='Your photos']")
     WebElement yourPhotos;
@@ -23,6 +17,7 @@ public class PhotosPage {
     WebElement sharedAlbums;
     @FindBy(xpath = "//span[@title='Tagged photos']")
     WebElement taggedPhotos;
+
 
     public WebElement getYourPhotos(){
         return yourPhotos;

@@ -1,13 +1,6 @@
 package com.TryCloud.Pages;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 
-public class CalendarPage {
-    WebDriver driver;
+public class CalendarPage extends PageBase {
 
-    public CalendarPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver,this);
-    }
 }

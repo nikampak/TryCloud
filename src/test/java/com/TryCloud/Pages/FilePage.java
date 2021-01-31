@@ -29,4 +29,40 @@ public class FilePage {
     WebElement settings;
     @FindBy(css = "a[class='button new']")
     WebElement addNewFileButton;
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    public WebElement getAllFiles() {
+        return allFiles;
+    }
+
+    public WebElement getRecent() {
+        return recent;
+    }
+
+    public WebElement getFavorites() {
+        return favorites;
+    }
+
+    public WebElement getShares() {
+        return shares;
+    }
+
+    public WebElement getTags() {
+        return tags;
+    }
+
+    public WebElement getDeletedFiles() {
+        return deletedFiles;
+    }
+
+    public WebElement getSettings() {
+        return settings;
+    }
+
+    public WebElement getAddNewFileButton() {
+        return addNewFileButton;
+    }
 }

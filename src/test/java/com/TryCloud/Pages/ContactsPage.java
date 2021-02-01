@@ -5,13 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ContactsPage {
-    WebDriver driver;
-
+public class ContactsPage extends PageBase{
     public ContactsPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
+
 
     @FindBy(css = "button#new-contact-button")
     WebElement newContract;
@@ -22,9 +20,8 @@ public class ContactsPage {
     @FindBy(xpath = "//button[@class='primary']")
     WebElement createContact;
 
-    public WebDriver getDriver() {
-        return driver;
-    }
+
+
 
     public WebElement getNewContract() {
         return newContract;

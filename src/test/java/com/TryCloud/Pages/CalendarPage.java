@@ -1,4 +1,11 @@
 package com.TryCloud.Pages;
 
-public class CalendarPage {
+
+import org.openqa.selenium.WebDriver;
+
+public class CalendarPage extends PageBase {
+
+    public CalendarPage(WebDriver driver) {
+        super(driver);
+    }
 }

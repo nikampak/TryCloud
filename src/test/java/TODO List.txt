@@ -1,0 +1,17 @@
+
+
+
+
+                            ####################################
+
+
+
+
+
+
+                            #5- Locate all the elements in page
+                            #6- Define them to specific page class
+                            #7- Start to create test cases
+                            #8- Create a TestNG.xml for suite
+
+                            ###################################

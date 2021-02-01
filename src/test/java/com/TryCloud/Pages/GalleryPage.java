@@ -1,4 +1,10 @@
 package com.TryCloud.Pages;
 
-public class GalleryPage {
+import org.openqa.selenium.WebDriver;
+
+public class GalleryPage extends PageBase {
+
+    public GalleryPage(WebDriver driver) {
+        super(driver);
+    }
 }

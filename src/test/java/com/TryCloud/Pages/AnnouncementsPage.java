@@ -1,4 +1,11 @@
 package com.TryCloud.Pages;
 
-public class AnnouncementsPage {
+
+import org.openqa.selenium.WebDriver;
+
+public class AnnouncementsPage extends PageBase {
+
+    public AnnouncementsPage(WebDriver driver) {
+        super(driver);
+    }
 }

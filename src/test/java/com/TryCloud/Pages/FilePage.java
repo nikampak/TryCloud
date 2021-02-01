@@ -33,4 +33,30 @@ public class FilePage extends PageBase {
     public WebElement setAddNewFileButton(){
         return addNewFileButton;
     }
+    public WebElement selectAllFiles(){
+        return selectAllFiles;
+    }
+    public WebElement settings(){
+        return settings;
+    }
+    public WebElement deletedFiles(){
+        return deletedFiles;
+    }
+    public WebElement tags(){
+        return tags;
+    }
+    public WebElement shares(){
+        return shares;
+    }
+    public WebElement favorites(){
+        return favorites;
+    }
+    public WebElement recent(){
+        return recent;
+    }
+    public WebElement allfiles(){
+        return allFiles;
+    }
+
+
 }
